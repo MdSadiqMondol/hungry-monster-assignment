@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container rounded-3">
+        <h4>search & wait....</h4>
+        <!-- search area -->
+        <div class=" mb-2  input-group-text justify-content-center">
+            <input id="input" type="text" placeholder="Enter name or first che">
+            <button id="search" onclick="clickSearch()" class="btn btn-primary style-btn">Search</button>
+        </div>
+        <!-- error tex are -->
+        <div id="message" class="justify-content-center ">
+            <p id="message-text">this data is sever out</p>
+            <button onclick="messageClose()" id="message-close">Close</button>
+        </div>
+        <!-- food details -->
+        <div id="food-description" class="food-info">
+
+        </div>
+        <!-- food list area -->
+        <div id="foods" class="foods">
+
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

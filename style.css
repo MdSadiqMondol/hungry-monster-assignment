@@ -1,0 +1,60 @@
+
+/* for this assignment ,style is not important , so I ignore it */
+h2{
+    color: tomato;
+}
+h4,
+li {
+    color: whitesmoke;
+    list-style: none;
+}
+
+body {
+    background-color: darkslategrey;
+    padding: 60px 0px;
+
+}
+
+#message {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    background-color: rgb(243, 243, 10);
+    width: 400px;
+}
+
+.foods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 5px;
+    margin-top: 50px;
+}
+
+.food {
+    width: 90%;
+    background-color: rgba(248, 245, 245, 0.548);
+    border-radius: 10px;
+    border: 4px solid red;
+
+}
+
+.food img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.food-info {
+    margin: 50px auto 0px;
+    width: 40%;
+    background-color: rgb(97, 66, 66);
+    border-radius: 15px;
+}
+
+.food-info img {
+    width: 100%;
+    border-radius: 20px;
+}
